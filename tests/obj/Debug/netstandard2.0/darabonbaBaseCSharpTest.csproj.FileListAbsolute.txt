@@ -1,0 +1,17 @@
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/Microsoft.TestPlatform.AdapterUtilities.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/darabonbaBaseCSharpTest.deps.json
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/darabonbaBaseCSharpTest.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/darabonbaBaseCSharpTest.pdb
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/bin/Debug/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.pdb
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netstandard2.0/darabonbaBaseCSharpTest.csproj.AssemblyReference.cache
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netstandard2.0/darabonbaBaseCSharpTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netstandard2.0/darabonbaBaseCSharpTest.AssemblyInfoInputs.cache
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netstandard2.0/darabonbaBaseCSharpTest.AssemblyInfo.cs
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netstandard2.0/darabonbaBaseCSharpTest.csproj.CoreCompileInputs.cache
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netstandard2.0/darabonb.C547BA1D.Up2Date
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netstandard2.0/darabonbaBaseCSharpTest.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netstandard2.0/darabonbaBaseCSharpTest.pdb
