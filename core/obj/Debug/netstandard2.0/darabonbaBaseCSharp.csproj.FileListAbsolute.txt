@@ -6,3 +6,4 @@
 /Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Debug/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.pdb
 /Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Debug/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.dll
 /Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Debug/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.pdb
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Debug/netstandard2.0/darabonbaBaseCSharp.sourcelink.json

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ptGkGb8qZMo=",
+  "success": true,
+  "projectFilePath": "/Users/songang/LinkProjects/open/darabonba-base-csharp/TestRunner/TestRunner.csproj",
+  "expectedPackageFiles": [
+    "/Users/songang/.nuget/packages/tea/1.0.11/tea.1.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

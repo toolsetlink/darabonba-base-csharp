@@ -15,3 +15,4 @@
 /Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netcoreapp3.1/darabonb.C547BA1D.Up2Date
 /Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netcoreapp3.1/darabonbaBaseCSharpTest.dll
 /Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netcoreapp3.1/darabonbaBaseCSharpTest.pdb
+/Users/songang/LinkProjects/open/darabonba-base-csharp/tests/obj/Debug/netcoreapp3.1/darabonbaBaseCSharpTest.sourcelink.json
