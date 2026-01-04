@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ToolsetLink.DarabonbaBaseCSharp</id>
+    <version>1.0.0</version>
+    <authors>ToolsetLink, Inc</authors>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/toolsetlink/darabonba-base-csharp</projectUrl>
+    <description>toolsetLink-darabonbaBaseCSharp</description>
+    <tags>toolsetlink darabonba base</tags>
+    <repository type="git" url="https://github.com/toolsetlink/darabonba-base-csharp" commit="318eec858a5288d11f2fdbd5a9b8d254dd57b8d3" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Tea" version="1.0.11" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Tea" version="1.0.11" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/net45/ToolsetLink.DarabonbaBaseCSharp.dll" target="lib/net45/ToolsetLink.DarabonbaBaseCSharp.dll" />
+    <file src="/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.dll" target="lib/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.dll" />
+  </files>
+</package>

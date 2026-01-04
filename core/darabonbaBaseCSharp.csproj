@@ -7,10 +7,15 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AssemblyName>ToolsetLink.DarabonbaBaseCSharp</AssemblyName>
-    <Version/>
+    <Version>1.0.0</Version>
     <LangVersion>5</LangVersion>
     <Authors>ToolsetLink, Inc</Authors>
     <Description>toolsetLink-darabonbaBaseCSharp</Description>
+    <PackageProjectUrl>https://github.com/toolsetlink/darabonba-base-csharp</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/toolsetlink/darabonba-base-csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>toolsetlink darabonba base</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.0'">
     <DefineConstants>NETSTANDARD2_0</DefineConstants>

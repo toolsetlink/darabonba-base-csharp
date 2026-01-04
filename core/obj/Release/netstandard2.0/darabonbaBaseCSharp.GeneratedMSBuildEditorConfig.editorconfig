@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = ToolsetLink.DarabonbaBaseCSharp
+build_property.ProjectDir = /Users/songang/LinkProjects/open/darabonba-base-csharp/core/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

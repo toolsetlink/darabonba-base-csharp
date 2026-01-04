@@ -1,0 +1,12 @@
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/net45/ToolsetLink.DarabonbaBaseCSharp.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/net45/ToolsetLink.DarabonbaBaseCSharp.pdb
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/net45/System.Net.Http.Extensions.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/net45/System.Net.Http.Primitives.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/net45/Tea.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/net45/darabonbaBaseCSharp.csproj.AssemblyReference.cache
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/net45/darabonbaBaseCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/net45/darabonbaBaseCSharp.csproj.CoreCompileInputs.cache
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/net45/darabonbaBaseCSharp.sourcelink.json
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/net45/darabonb.9657CF5B.Up2Date
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/net45/ToolsetLink.DarabonbaBaseCSharp.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/net45/ToolsetLink.DarabonbaBaseCSharp.pdb

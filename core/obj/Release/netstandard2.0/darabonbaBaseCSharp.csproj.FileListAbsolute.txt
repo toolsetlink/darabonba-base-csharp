@@ -1,0 +1,9 @@
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.deps.json
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/bin/Release/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.pdb
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/netstandard2.0/darabonbaBaseCSharp.csproj.AssemblyReference.cache
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/netstandard2.0/darabonbaBaseCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/netstandard2.0/darabonbaBaseCSharp.csproj.CoreCompileInputs.cache
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/netstandard2.0/darabonbaBaseCSharp.sourcelink.json
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.dll
+/Users/songang/LinkProjects/open/darabonba-base-csharp/core/obj/Release/netstandard2.0/ToolsetLink.DarabonbaBaseCSharp.pdb
