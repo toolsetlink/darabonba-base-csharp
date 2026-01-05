@@ -22,8 +22,8 @@ namespace ToolsetLink.DarabonbaBaseCSharp
 
         public static string TimeRFC3339()
         {
-            // Go的time.RFC3339格式为"2006-01-02T15:04:05Z07:00"，C#中的"O"格式与此兼容
-            return DateTime.UtcNow.ToString("O");
+            // 生成秒级RFC3339格式时间，格式为：2026-01-05T12:34:56Z
+            return DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ");
         }
 
         /// <term><b>Description:</b></term>

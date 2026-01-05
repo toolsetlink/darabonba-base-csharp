@@ -9,7 +9,7 @@
       "darabonbaBaseCSharpTest/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.11.1",
-          "ToolsetLink.DarabonbaBaseCSharp": "1.0.0",
+          "ToolsetLink.DarabonbaBaseCSharp": "1.0.1",
           "xunit": "2.8.0",
           "xunit.runner.visualstudio": "2.5.8",
           "ToolsetLink.DarabonbaBaseCSharp.Reference": "1.0.0.0"
@@ -348,13 +348,13 @@
         }
       },
       "xunit.runner.visualstudio/2.5.8": {},
-      "ToolsetLink.DarabonbaBaseCSharp/1.0.0": {
+      "ToolsetLink.DarabonbaBaseCSharp/1.0.1": {
         "dependencies": {
           "Tea": "1.0.11"
         },
         "runtime": {
           "ToolsetLink.DarabonbaBaseCSharp.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.1",
             "fileVersion": ""
           }
         }
@@ -480,7 +480,7 @@
       "path": "xunit.runner.visualstudio/2.5.8",
       "hashPath": "xunit.runner.visualstudio.2.5.8.nupkg.sha512"
     },
-    "ToolsetLink.DarabonbaBaseCSharp/1.0.0": {
+    "ToolsetLink.DarabonbaBaseCSharp/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

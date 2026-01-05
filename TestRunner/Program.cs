@@ -111,11 +111,11 @@ namespace TestRunner
             try
             {
                 // 测试用例1: 带有body的签名
-                string body = "testBody";
-                string nonce = "testNonce123456";
-                string secretKey = "testSecretKey";
-                string timestamp = "1234567890";
-                string uri = "/test/uri";
+                string body = '{"winKey":"npJi367lttpwmD1goZ1yOQ","arch":"x64","versionCode":1,"appointVersionCode":0,"devModelKey":"","devKey":""}';
+                string nonce = "a39e40c223421d5d";
+                string secretKey = "PEbdHFGC0uO_Pch7XWBQTMsFRxKPQAM2565eP8LJ3gc";
+                string timestamp = "2026-01-05T03:09:23Z";
+                string uri = "/v1/win/upgrade";
                 
                 string result1 = Client.GenerateSignature(body, nonce, secretKey, timestamp, uri);
                 Console.WriteLine($"   用例1 (带body) 结果: {result1}");

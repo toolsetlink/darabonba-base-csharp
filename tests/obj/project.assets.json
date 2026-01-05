@@ -415,7 +415,7 @@
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "ToolsetLink.DarabonbaBaseCSharp/1.0.0": {
+      "ToolsetLink.DarabonbaBaseCSharp/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -898,7 +898,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "ToolsetLink.DarabonbaBaseCSharp/1.0.0": {
+    "ToolsetLink.DarabonbaBaseCSharp/1.0.1": {
       "type": "project",
       "path": "../core/darabonbaBaseCSharp.csproj",
       "msbuildProject": "../core/darabonbaBaseCSharp.csproj"
@@ -907,7 +907,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.NET.Test.Sdk >= 17.11.1",
-      "ToolsetLink.DarabonbaBaseCSharp >= 1.0.0",
+      "ToolsetLink.DarabonbaBaseCSharp >= 1.0.1",
       "xunit >= 2.7.2",
       "xunit.runner.visualstudio >= 2.5.8"
     ]

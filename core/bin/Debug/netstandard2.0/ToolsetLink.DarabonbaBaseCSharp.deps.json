@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "ToolsetLink.DarabonbaBaseCSharp/1.0.0": {
+      "ToolsetLink.DarabonbaBaseCSharp/1.0.1": {
         "dependencies": {
           "Microsoft.NETFramework.ReferenceAssemblies": "1.0.0-preview.2",
           "NETStandard.Library": "2.0.3",
@@ -40,7 +40,7 @@
     }
   },
   "libraries": {
-    "ToolsetLink.DarabonbaBaseCSharp/1.0.0": {
+    "ToolsetLink.DarabonbaBaseCSharp/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

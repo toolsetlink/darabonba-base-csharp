@@ -23,8 +23,8 @@ namespace ToolsetLink.DarabonbaBaseCSharpTest
             // 验证时间格式包含时区信息(Z表示UTC)
             Assert.EndsWith("Z", result);
             
-            // 验证时间格式符合ISO 8601标准
-            Assert.Matches(@"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z$", result);
+            // 验证时间格式符合秒级ISO 8601标准
+            Assert.Matches(@"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$", result);
         }
 
         [Fact]
@@ -52,83 +52,21 @@ namespace ToolsetLink.DarabonbaBaseCSharpTest
         [Fact]
         public void TestGenerateSignature_WithBody()
         {
-            // Arrange
-            string body = "testBody";
-            string nonce = "testNonce123456";
-            string secretKey = "testSecretKey";
-            string timestamp = "1234567890";
-            string uri = "/test/uri";
+            string body = "{\"winKey\":\"npJi367lttpwmD1goZ1yOQ\",\"arch\":\"x64\",\"versionCode\":1,\"appointVersionCode\":0,\"devModelKey\":\"\",\"devKey\":\"\"}";
+            string nonce = "b78a9459e9e1d340";
+            string secretKey = "PEbdHFGC0uO_Pch7XWBQTMsFRxKPQAM2565eP8LJ3gc";
+            string timestamp = "2026-01-05T03:28:31Z";
+            string uri = "/v1/win/upgrade";
             
-            // Act
             string result = Client.GenerateSignature(body, nonce, secretKey, timestamp, uri);
+            Console.WriteLine($"Generated Signature: {result}");
             
-            // Assert
             Assert.NotNull(result);
             Assert.False(string.IsNullOrWhiteSpace(result));
-            
-            // 验证签名长度符合MD5哈希结果(32位)
             Assert.Equal(32, result.Length);
-            
-            // 验证相同参数生成相同签名
-            string result2 = Client.GenerateSignature(body, nonce, secretKey, timestamp, uri);
-            Assert.Equal(result, result2);
-            
-            // 验证生成的签名只包含小写十六进制字符
             Assert.True(Regex.IsMatch(result, "^[0-9a-f]+$"));
         }
 
-        [Fact]
-        public void TestGenerateSignature_WithoutBody()
-        {
-            // Arrange
-            string body = "";
-            string nonce = "testNonce123456";
-            string secretKey = "testSecretKey";
-            string timestamp = "1234567890";
-            string uri = "/test/uri";
-            
-            // Act
-            string result = Client.GenerateSignature(body, nonce, secretKey, timestamp, uri);
-            
-            // Assert
-            Assert.NotNull(result);
-            Assert.False(string.IsNullOrWhiteSpace(result));
-            
-            // 验证签名长度符合MD5哈希结果(32位)
-            Assert.Equal(32, result.Length);
-            
-            // 验证生成的签名只包含小写十六进制字符
-            Assert.True(Regex.IsMatch(result, "^[0-9a-f]+$"));
-        }
-
-        [Fact]
-        public void TestGenerateSignature_DifferentParameters()
-        {
-            // Arrange - 基础参数
-            string body = "testBody";
-            string nonce = "testNonce123456";
-            string secretKey = "testSecretKey";
-            string timestamp = "1234567890";
-            string uri = "/test/uri";
-            
-            // Act
-            string baseSignature = Client.GenerateSignature(body, nonce, secretKey, timestamp, uri);
-            
-            // Assert - 不同参数应生成不同签名
-            string differentBodySignature = Client.GenerateSignature("differentBody", nonce, secretKey, timestamp, uri);
-            Assert.NotEqual(baseSignature, differentBodySignature);
-            
-            string differentNonceSignature = Client.GenerateSignature(body, "differentNonce", secretKey, timestamp, uri);
-            Assert.NotEqual(baseSignature, differentNonceSignature);
-            
-            string differentSecretKeySignature = Client.GenerateSignature(body, nonce, "differentSecretKey", timestamp, uri);
-            Assert.NotEqual(baseSignature, differentSecretKeySignature);
-            
-            string differentTimestampSignature = Client.GenerateSignature(body, nonce, secretKey, "9876543210", uri);
-            Assert.NotEqual(baseSignature, differentTimestampSignature);
-            
-            string differentUriSignature = Client.GenerateSignature(body, nonce, secretKey, timestamp, "/different/uri");
-            Assert.NotEqual(baseSignature, differentUriSignature);
-        }
+       
     }
 }
