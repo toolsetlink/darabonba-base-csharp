@@ -5,7 +5,7 @@
   },
   "projects": {
     "/Users/songang/LinkProjects/open/darabonba-base-csharp/core/darabonbaBaseCSharp.csproj": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "restore": {
         "projectUniqueName": "/Users/songang/LinkProjects/open/darabonba-base-csharp/core/darabonbaBaseCSharp.csproj",
         "projectName": "ToolsetLink.DarabonbaBaseCSharp",
